@@ -27,7 +27,7 @@
 import Foundation
 
  /// Base URL for the Vimeo API
-public let VimeoBaseURL = URL(string: "https://receipt-schema-update-api.ci.vimeows.com")!
+public let VimeoBaseURL = URL(string: "https://apple-fetch-cron.ci.vimeows.com")!
 
  /// Default API version to use for requests
 internal let VimeoDefaultAPIVersionString = "3.2"
