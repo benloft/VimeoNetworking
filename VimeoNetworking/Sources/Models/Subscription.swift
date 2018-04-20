@@ -50,16 +50,26 @@ public class Subscription: VIMModelObject
     /// Represents the Subscription object as a Dictionary
     public var toDictionary: [AnyHashable: Any]
     {
-        let dictionary = ["comment": self.comment ?? false,
-                          "credit": self.credit ?? false,
-                          "like": self.like ?? false,
-                          "mention": self.mention ?? false,
-                          "reply": self.reply ?? false,
-                          "follow": self.follow ?? false,
-                          "vod_preorder_available": self.vodPreorderAvailable ?? false,
-                          "video_available": self.videoAvailable ?? false,
-                          "share": self.share ?? false,
-                          "followed_user_video_available": self.followedUserVideoAvailable ?? false]
+        let comment = self.comment ?? false
+        let credit = self.credit ?? false
+        let like = self.like ?? false
+        let mention = self.mention ?? false
+        let reply = self.reply ?? false
+        let follow = self.follow ?? false
+        let vodPreorderAvailable = self.vodPreorderAvailable ?? false
+        let videoAvailable = self.videoAvailable ?? false
+        let share = self.share ?? false
+        let followedUserVideoAvailable = self.followedUserVideoAvailable ?? false
+        let dictionary = ["comment": comment,
+                          "credit": credit,
+                          "like": like,
+                          "mention": mention,
+                          "reply": reply,
+                          "follow": follow,
+                          "vod_preorder_available": vodPreorderAvailable,
+                          "video_available": videoAvailable,
+                          "share": share,
+                          "followed_user_video_available": followedUserVideoAvailable]
         
         return dictionary
     }
