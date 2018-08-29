@@ -36,6 +36,7 @@ FOUNDATION_EXPORT const unsigned char VimeoNetworkingVersionString[];
 
 #import <VimeoNetworking/VIMAccount.h>
 #import <VimeoNetworking/VIMActivity.h>
+#import <VimeoNetworking/VIMAlbum.h>
 #import <VimeoNetworking/VIMAppeal.h>
 #import <VimeoNetworking/VIMCategory.h>
 #import <VimeoNetworking/VIMChannel.h>
